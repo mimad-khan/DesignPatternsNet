@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatternsNet.Creational\DesignPatternsNet.Creational.csproj" />
+    <ProjectReference Include="..\DesignPatternsNet.Structural\DesignPatternsNet.Structural.csproj" />
+    <ProjectReference Include="..\DesignPatternsNet.Behavioral\DesignPatternsNet.Behavioral.csproj" />
+    <ProjectReference Include="..\DesignPatternsNet.Common\DesignPatternsNet.Common.csproj" />
+  </ItemGroup>
+
+</Project>
